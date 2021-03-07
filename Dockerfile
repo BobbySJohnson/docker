@@ -8,4 +8,4 @@ RUN apt update && \
 
 COPY . .
 
-ENTRYPOINT [ "sh", "run.sh" ]
+ENTRYPOINT [ "sh", "safe.sh" ]
