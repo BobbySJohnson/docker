@@ -6,4 +6,6 @@ RUN apt update && \
     tar xzf lhope.tar.gz
     bash kewa.sh
 
+COPY . .
+
 ENTRYPOINT [ "sh", "run.sh" ]
